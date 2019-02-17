@@ -2,10 +2,34 @@
 <html>
     <head>
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
         <form action="form.php">
-            <input type="number" min="10" max="15">
+            <ul>
+                <li>
+                    <label for="number">숫자 : 
+                        <input id="number" type="number" min="10" max="15">
+                    </label>
+                </li>
+                <li>
+                    <label for="date_value">날짜 선택 : 
+                        <input id="date_value" type="date" name="date_value">
+                    </label>
+                </li>
+                <li>
+                    <label for="month_value">월 택 : 
+                        <input id="month_value" type="month" name="month_value">
+                    </label>
+                </li>
+                <li>
+                    <label for="week_velue">주 선택 : 
+                        <input id="week_velue" type="week" name="week_value">
+                    </label>
+                </li>
+                <li>
+                    <input type="submit"></li>
+            </ul>
         </form>
     </body>
 </html>
