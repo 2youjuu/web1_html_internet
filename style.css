@@ -1,5 +1,7 @@
 body{
     margin: 0;
+    font-family: 'Lato', sans-serif;
+    line-height: 1.8em;
 }
 a {
     color:black;
@@ -10,7 +12,7 @@ h1 {
     text-align: center;
     border-bottom: solid #e1e1e1 1px;
     margin: 0;
-    padding: 20px;
+    padding: 40px;
 }
 #grid {
     display: grid;
@@ -31,11 +33,14 @@ h1 {
 }
 
 #grid nav ul li a {
-    line-height: 2em;
+    line-height: 3em;
 }
 #grid #article{
     margin: 0;
     padding: 0 0 20px 40px;
+}
+#grid #article p {
+    color: #636363;
 }
 @media (max-width:600px){
 
